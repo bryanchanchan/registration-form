@@ -2,3 +2,21 @@ html {
   font-family: "Open Sans", sans-serif;
   background-color: #f2f2f2;
 }
+
+.content {
+  background-color: #fff;
+  padding: 1em;
+  line-height: 1.5em;
+}
+
+h1 {
+  border-bottom: .5px #000 solid;
+}
+
+@media only screen and (min-width: 60em){
+
+  input
+  select, {
+    display: inline-block;
+  }
+}

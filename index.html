@@ -16,46 +16,48 @@
   <div class="content max-length">
     <h1 class="pad-t push">Want to go to Mars?</h1>
     <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-    <h2 class="italic">Personal details</h2>
-
     <form method="POST" action="https://formspree.io/chan0398@algonquinlive.com" method="post">
-      <div class="grid">
-        <div class="push unit xs-1 s-1 m-1 l-1-2">
-          <label for="name">Name</label>
-          <input id="name" name="name">
-        </div>
-        <div class="push unit xs-1 s-1 m-1 l-1-2">
-          <label for="age">Age</label>
-          <input id="age" name="age">
-        </div>
-        <div class="push unit xs-1 s-1 m-1 l-1-2">
-          <label for="email">Email</label>
-          <input id="email" type="email" name="email">
-        </div>
-        <div class="push unit xs-1 s-1 m-1 l-1-2">
-          <label for="fitness">Physical fitness</label>
-          <select id="fitness" name="fitness">
-            <option>Super-human</option>
-            <option>Fit as a fiddle</option>
-            <option>Not terribly strong</option>
-            <option>A little couch-potato-y</option>
-          </select>
-        </div>
-        <div class="unit xs-1 s-1 m-1 l-1">
-          <label for="address">Address</label>
-          <textarea id="address" name="adress"></textarea>
-        </div>
-      </form>
-      <h2 class="italic">Mission statement</h2>
-        <div class=push>
-          <label for="comment">Why do you want to go to Mars?</label>
-          <textarea id="comment" name="message"></textarea>
-        </div>
-        <div class="push text-center">
-          <button type="submit">Register for the trip!</button>
-          <input type="hidden" name="subject">
-        </div>
-      </div>
+      <fieldset>
+        <h2 class="italic giga push-1-2">Personal details</h2>
+        <div class="grid">
+          <div class="push unit xs-1 s-1 m-1 l-1-2">
+            <label for="name">Name</label>
+            <input id="name" name="name">
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1-2">
+            <label for="age">Age</label>
+            <input id="age" name="age">
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1-2">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email">
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1-2">
+            <label for="fitness">Physical fitness</label>
+            <select id="fitness" name="fitness">
+              <option>Super-human</option>
+              <option>Fit as a fiddle</option>
+              <option>Not terribly strong</option>
+              <option>A little couch-potato-y</option>
+            </select>
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1">
+            <label for="address">Address</label>
+            <textarea id="address" name="adress"></textarea>
+          </div>
+      </fieldset>
+      <fieldset>
+        <h2 class="italic giga">Mission statement</h2>
+          <div class=push>
+            <label for="comment">Why do you want to go to Mars?</label>
+            <textarea id="comment" name="message"></textarea>
+          </div>
+          <div class="push text-center">
+            <button type="submit">Register for the trip!</button>
+            <input type="hidden" name="subject">
+          </div>
+      </fieldset>
+    </form>
   </div>
 </section>
 
