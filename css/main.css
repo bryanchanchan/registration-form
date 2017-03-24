@@ -13,10 +13,10 @@ h1 {
   border-bottom: .5px #000 solid;
 }
 
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 60em) {
 
-  input
-  select, {
+  input,
+  select {
     display: inline-block;
   }
 }
